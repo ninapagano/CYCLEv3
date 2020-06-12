@@ -1,0 +1,54 @@
+/* =============
+    Section 5
+============= */
+#section-5 {
+    background:white;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-5 .";
+    padding: 60px 0;
+
+    @include lg{
+        padding: 50px 0;
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div{
+        grid-area: section-5;
+
+        #section-5-caption{
+
+            >div{
+                grid-area: section-5-caption;
+                h6{
+                    display: block;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin: 40px 0 30px;
+                }
+                h7{
+                    display: block;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin: 40px 0 30px;
+                }
+
+                img{
+                    position: center center;
+                    display: flex;
+                    margin-top: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-bottom: 100px;
+                }
+            }
+        }
+
+    }
+
+}

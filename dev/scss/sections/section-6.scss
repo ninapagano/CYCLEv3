@@ -1,0 +1,27 @@
+#section-6 {
+    display: grid;
+
+    .contain {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: "bagelimg bagel";
+    }
+
+    .bagelimg {
+        grid-area: bagelimg;
+        height: 325px;
+        padding: 20px;
+        padding-left: 200px;
+    }   
+
+    .bagel {
+        grid-area: bagel;
+        height: 325px;
+        padding-top: 300px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 100;
+        padding: 10px 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}

@@ -1,0 +1,17 @@
+/* =============
+    Section 1
+============= */
+#section-1 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ".section-1.";
+  background-color: #a3d5d3; }
+  @media (max-width: 1800px) {
+    #section-1 h1 {
+      color: blueviolet;
+      font-size: 120px; } }
+  #section-1 > div #section-1 {
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: ". section-2-first. ";
+    text-align: center; }

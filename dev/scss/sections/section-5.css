@@ -1,0 +1,19 @@
+/* =============
+    Section 5
+============= */
+#section-5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  position: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ".section-5.";
+  background-color: #a3d5d3; }
+  @media (max-width: 2000px) {
+    #section-5 h4 {
+      color: cornsilk;
+      font-size: 25px; }
+    #section-5 > div #section-5 {
+      grid-template-columns: 20% auto 20%;
+      grid-template-areas: ". section-5. "; } }

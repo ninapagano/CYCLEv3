@@ -1,0 +1,20 @@
+#section-6 {
+  display: grid;
+  grid-gap: 100px; }
+  #section-6 #contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: "bagel bagelimg";
+    grid-gap: 20px; }
+  #section-6 .bagel {
+    grid-area: bagel;
+    height: 325px;
+    padding-top: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace; }
+  #section-6 .bagelimg {
+    grid-area: bagelimg;
+    height: 325px;
+    padding: 20px; }

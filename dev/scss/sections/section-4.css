@@ -1,0 +1,16 @@
+/* =============
+    Section 4
+============= */
+#section-4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-template-areas: ".section-4."; }
+  #section-4 .div .img-4 {
+    justify-self: center;
+    align-self: center; }
+  #section-4 .div .img-5 {
+    justify-self: center;
+    align-self: center; }
+  #section-4 .div .img-6 {
+    justify-self: center;
+    align-self: center; }

@@ -1,0 +1,37 @@
+/* =============
+    Section 3
+============= */
+#section-3 {
+  background-image: url('../img/section3/img3.png');
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". section-3 .";
+
+  @include lg{
+    padding: 50px 0;
+  }
+
+  @include xl {
+    grid-template-columns: auto 1200px auto;
+  }
+
+  >div{
+    grid-area: section-3;
+    display: flex;
+
+      #section-3-first{
+
+          h5 {
+              padding-left: 200px;
+                color: grayscale($color: #585757);
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 60px;
+                font-weight: 500;
+                //margin: 10px 0 60px;
+          }
+      }
+  }
+}
